@@ -1,0 +1,9 @@
+[package]
+name = "dev-tunnel"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.44.0", features = ["full"] }
+tungstenite = "0.26.2"
+futures = "0.3.31"
